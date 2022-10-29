@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    width: 60px;
+    padding: 30px;
+    margin: 40px;
+}
+.li-class{
+    display: flex;
+    width: 4px;
+    left: 50px;
+}
+.logo{
+        size: 2px;
+        position: relative;
+        left: -15px;
+}
