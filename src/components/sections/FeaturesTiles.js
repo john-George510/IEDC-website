@@ -44,7 +44,7 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: '\"INNOVATION DISTINGUISHES BETWEEN A LEADER AND A FOLLOWER\"',
+    title: '"INNOVATION DISTINGUISHES BETWEEN A LEADER AND A FOLLOWER"',
     paragraph: '-Steve Jobs'
   };
 
