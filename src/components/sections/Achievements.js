@@ -5,9 +5,10 @@ import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import achievements from "../../data/achievements";
-import "swiper/swiper-bundle.css";
-import "swiper/swiper.min.css";
-import "swiper/modules/pagination/pagination.min.css";
+// import "swiper/swiper-bundle.css";
+// import "swiper/swiper.min.css";
+// import "swiper/modules/pagination/pagination.min.css";
+import 'swiper/css';
 import "./achievements.css";
 import AchvmtnCard from "../layout/AchvmtnCard";
 

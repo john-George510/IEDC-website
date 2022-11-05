@@ -33,7 +33,7 @@ const Footer = ({
       {...props}
       className={classes}
     >
-      <div className="container">
+      <div className="container" style={{justifyContent: 'center'}}>
         <div className={
           classNames(
             'site-footer-inner',

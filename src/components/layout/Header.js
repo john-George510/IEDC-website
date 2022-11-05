@@ -82,15 +82,15 @@ const Header = ({
   return (
     <header {...props} className={classes}>
       <div className="container">
+          <div className="logo">
+            <Logo />
+          </div>
         <div
           className={classNames(
             "site-header-inner",
             bottomDivider && "has-bottom-divider"
           )}
         >
-          <div className="logo">
-            <Logo />
-          </div>
           {!hideNav && (
             <>
               <button
@@ -107,7 +107,7 @@ const Header = ({
                 ref={nav}
                 className={classNames("header-nav", isActive && "is-active")}
               >
-                <div className="header-nav-inner">
+                <div className="header-nav-inner ">
                   <ul
                     className={classNames(
                       "list-reset text-xs",
@@ -118,21 +118,33 @@ const Header = ({
                       <Link to="#0" onClick={closeMenu}>
                         E-NOVUS
                       </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#1" onClick={closeMenu}>
                         ABOUT
                       </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#2" onClick={closeMenu}>
                         ACHIEVEMENTS
                       </Link>
+                    </li>
+                    {/* <li className="li-class">
                       <Link to="#3" onClick={closeMenu}>
                         TIMELINE
                       </Link>
+                    </li> */}
+                    <li className="li-class">
                       <Link to="#4" onClick={closeMenu}>
                         TEAM
                       </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#5" onClick={closeMenu}>
                         OPPORTUNITIES
                       </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#6" onClick={closeMenu}>
                         CONTACT
                       </Link>
