@@ -1,0 +1,38 @@
+.upcoming-events {
+    width: 300px !important;
+    max-width: 80vw !important;
+    height: 500px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .upcoming-events > .top-ue {
+    height: 50% !important;
+    width: 100%;
+  }
+  
+  .top-ue > img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bottom-ue {
+    margin-top: 10px !important;
+  }
+  
+  .bottom-ue > p {
+      height: auto;
+      overflow-y: scroll;
+      margin-top: 10px !important;
+      
+      -ms-overflow-style: none;  
+      scrollbar-width: none;  
+  }
+  .bottom-ue > p::-webkit-scrollbar {
+      display: none;
+  }
+  
+  
