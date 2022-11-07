@@ -1,0 +1,6 @@
+export { default as icon1 } from './feature-tile-icon-01.svg'
+export { default as icon2 } from './feature-tile-icon-02.svg'
+export { default as icon3 } from './feature-tile-icon-03.svg'
+export { default as icon4 } from './feature-tile-icon-04.svg'
+export { default as icon5 } from './feature-tile-icon-05.svg'
+export { default as icon6 } from './feature-tile-icon-06.svg'
