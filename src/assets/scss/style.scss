@@ -5,10 +5,8 @@
 /*--------------------------------------------------------------
 # Variables, functions and mixins
 --------------------------------------------------------------*/
-@import "core/abstracts/functions",
-		"settings/settings",
-        "core/abstracts/mixins",
-        'core/abstracts/include-media';
+@import "core/abstracts/functions", "settings/settings", "core/abstracts/mixins",
+  "core/abstracts/include-media";
 
 /*--------------------------------------------------------------
 # Normalize
@@ -126,3 +124,48 @@
 # Helpers
 --------------------------------------------------------------*/
 @import "core/base/helpers";
+///////////////
+///
+/// .
+.gallery {
+  display: grid;
+
+  padding: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.gal-img {
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.gallerycol {
+  overflow: hidden;
+  width: 100%;
+  position: relative !important;
+
+  &:hover > .gallery-text {
+    opacity: 1;
+  }
+}
+.gallery-text {
+  position: absolute;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  bottom: 0rem;
+  z-index: 100;
+  opacity: 0;
+  left: 0rem;
+  margin-bottom: 0;
+  padding: 0.5rem 0.5rem;
+  color: #151719;
+  text-align: center;
+  font-size: 0.6rem;
+  font-weight: 500;
+  line-height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.82);
+}

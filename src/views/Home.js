@@ -6,6 +6,7 @@ import FeaturesSplit from "../components/sections/FeaturesSplit";
 import Achievements from "../components/sections/Achievements";
 import UpcomingEvents from "../components/sections/UpcomingEvents";
 import Cta from "../components/sections/Cta";
+import Gallery from "../components/sections/gallery";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       />
       <UpcomingEvents topDivider />
       <Achievements topDivider />
+      <Gallery topDivider />
       <Cta split />
     </>
   );
