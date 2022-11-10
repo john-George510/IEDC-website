@@ -40,21 +40,21 @@ const Cta = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider',
     split && 'cta-split'
-  );  
+  );
 
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div className="container" style={{ justifyContent: 'center' }}>
         <div
           className={innerClasses}
         >
           <div className="cta-slogan">
             <h3 className="m-0">
-              For previewing layouts and visual?
-              </h3>
+              Get started today!
+            </h3>
           </div>
           <div className="cta-action">
             <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">

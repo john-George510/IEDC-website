@@ -22,7 +22,7 @@ const Home = () => {
       <UpcomingEvents topDivider />
       <Achievements topDivider />
       <Gallery topDivider />
-      <Cta split />
+      {/* <Cta split /> */}
     </>
   );
 };
