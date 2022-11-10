@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { FaLinkedinIn } from 'react-icons/fa';
 
-import linkedin from '../../../assets/images/linkedin.png';
 
 const FooterSocial = ({
   className,
