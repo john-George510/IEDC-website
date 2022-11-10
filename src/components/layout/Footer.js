@@ -45,9 +45,9 @@ const Footer = ({
             </div> */}
             <FooterSocial />
           </div>
-          <div className="footer-bottom space-between text-xxs invert-order-desktop">
+          {/* <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-          </div>
+          </div> */}
           <div className="footer-copyright text-xxs invert-order-desktop">Made by IEDC CET. All right reserved</div>
         </div>
       </div>
