@@ -120,6 +120,11 @@ const Header = ({
                       </Link>
                     </li>
                     <li className="li-class">
+                      <Link to="#5" onClick={closeMenu}>
+                        IGNITES
+                      </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#1" onClick={closeMenu}>
                         ABOUT
                       </Link>
@@ -137,11 +142,6 @@ const Header = ({
                     <li className="li-class">
                       <Link to="#4" onClick={closeMenu}>
                         TEAM
-                      </Link>
-                    </li>
-                    <li className="li-class">
-                      <Link to="#5" onClick={closeMenu}>
-                        OPPORTUNITIES
                       </Link>
                     </li>
                     <li className="li-class">
