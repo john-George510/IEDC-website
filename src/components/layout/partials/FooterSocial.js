@@ -1,5 +1,8 @@
 import React from 'react';
 import classNames from 'classnames';
+import { FaLinkedinIn } from 'react-icons/fa';
+
+import linkedin from '../../../assets/images/linkedin.png';
 
 const FooterSocial = ({
   className,
@@ -18,7 +21,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://facebook.com/">
+          <a href="https://www.facebook.com/iedccet/">
             <svg
               width="20"
               height="20"
@@ -31,7 +34,12 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/">
+          <a href="https://www.linkedin.com/company/innovation-and-entrepreneurship-development-cell-cet/mycompany/">
+            <FaLinkedinIn size={20} />
+          </a>
+        </li>
+        <li>
+          <a href="https://mobile.twitter.com/iedccet">
             <svg
               width="20"
               height="20"
@@ -44,7 +52,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://google.com/">
+          <a href="https://www.instagram.com/iedc_cet/?hl=en">
             <svg
               width="20"
               height="20"
