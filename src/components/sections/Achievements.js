@@ -4,6 +4,7 @@ import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
+import { HashScroll } from "react-hash-scroll";
 import achievements from "../../data/achievements";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
@@ -54,51 +55,53 @@ const Achievements = ({
   };
 
   return (
-    <section {...props} className={outerClasses}>
-      <div className="container">
-        <div className={innerClasses}>
-          <SectionHeader
-            data={sectionHeader}
-            className="center-content achv-heading"
-          />
-          <div className={`${tilesClasses} slider-container`}>
-            <Swiper
-              spaceBetween={10}
-              autoplay={{
-                delay: 2500,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-              }}
-              slidesPerView={1}
-              navigation={true}
-              modules={[Autoplay, Pagination, Navigation]}
-              breakpoints={{
-                640: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 2,
-                  spaceBetween: 30,
-                },
-                1024: {
-                  slidesPerView: 3,
-                  spaceBetween: 20,
-                },
-              }}
-              className="mySwiper"
-            >
-              {achievements.map((d, i) => (
-                <SwiperSlide><AchvmtnCard data={d}/></SwiperSlide>
-              ))}
-              
-            </Swiper>
+    <HashScroll hash="#Achievements"  position="start">
+      <section {...props} className={outerClasses}>
+        <div className="container">
+          <div className={innerClasses}>
+            <SectionHeader
+              data={sectionHeader}
+              className="center-content achv-heading"
+            />
+            <div className={`${tilesClasses} slider-container`}>
+              <Swiper
+                spaceBetween={10}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                pagination={{
+                  clickable: true,
+                }}
+                slidesPerView={1}
+                navigation={true}
+                modules={[Autoplay, Pagination, Navigation]}
+                breakpoints={{
+                  640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                  },
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                  },
+                  1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                  },
+                }}
+                className="mySwiper"
+              >
+                {achievements.map((d, i) => (
+                  <SwiperSlide><AchvmtnCard data={d} /></SwiperSlide>
+                ))}
+
+              </Swiper>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </HashScroll>
   );
 };
 

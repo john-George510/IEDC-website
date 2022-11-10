@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import Input from '../elements/Input';
+import { HashScroll } from "react-hash-scroll";
 import './styles.css';
 
 const propTypes = {
@@ -45,15 +46,16 @@ const Cta = ({
   );
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
-      <div className="container" style={{ justifyContent: 'center' }}>
-        <div
-          className={innerClasses}
-        >
-          {/* <div className="cta-slogan">
+    <HashScroll hash="#Contact" position="start">
+      <section
+        {...props}
+        className={outerClasses}
+      >
+        <div className="container" style={{ justifyContent: 'center' }}>
+          <div
+            className={innerClasses}
+          >
+            {/* <div className="cta-slogan">
             <h3 className="m-0">
               Get started today!
             </h3>
@@ -65,27 +67,28 @@ const Cta = ({
               </svg>
             </Input>
           </div> */}
-          <div className='box flex flex-row justify-around'>
-            <div className='contact mr-7 flex flex-col'>
-              <p className='contact-name text-base font-semibold text-blue-100 mb-1'>
-                Contact : Gokul Suresh
-              </p>
-              <p className='text-base text-blue-100 mb-1'>
-                Phone : 944 777 7777
-              </p>
-            </div>
-            <div className='flex flex-col md:ml-0'>
-              <p className='text-base font-semibold text-blue-100 mb-1'>
-                Contact : Gokul Suresh
-              </p>
-              <p className='text-base text-blue-100 mb-1'>
-                Phone : 944 777 7777
-              </p>
+            <div className='box flex flex-row justify-around'>
+              <div className='contact mr-7 flex flex-col'>
+                <p className='contact-name text-base font-semibold text-blue-100 mb-1'>
+                  Contact : Gokul Suresh
+                </p>
+                <p className='text-base text-blue-100 mb-1'>
+                  Phone : 944 777 7777
+                </p>
+              </div>
+              <div className='flex flex-col md:ml-0'>
+                <p className='text-base font-semibold text-blue-100 mb-1'>
+                  Contact : Gokul Suresh
+                </p>
+                <p className='text-base text-blue-100 mb-1'>
+                  Phone : 944 777 7777
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </HashScroll>
   );
 }
 

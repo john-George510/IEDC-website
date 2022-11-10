@@ -82,9 +82,9 @@ const Header = ({
   return (
     <header {...props} className={classes}>
       <div className="container">
-          <div className="logo">
-            <Logo />
-          </div>
+        <div className="logo">
+          <Logo />
+        </div>
         <div
           className={classNames(
             "site-header-inner",
@@ -125,12 +125,12 @@ const Header = ({
                       </Link>
                     </li>
                     <li className="li-class">
-                      <Link to="#1" onClick={closeMenu}>
+                      <Link to="#About" onClick={closeMenu}>
                         ABOUT
                       </Link>
                     </li>
                     <li className="li-class">
-                      <Link to="#2" onClick={closeMenu}>
+                      <Link to="#Achievements" onClick={closeMenu}>
                         ACHIEVEMENTS
                       </Link>
                     </li>
@@ -140,12 +140,12 @@ const Header = ({
                       </Link>
                     </li> */}
                     <li className="li-class">
-                      <Link to="#4" onClick={closeMenu}>
+                      <Link to="#Team" onClick={closeMenu}>
                         TEAM
                       </Link>
                     </li>
                     <li className="li-class">
-                      <Link to="#6" onClick={closeMenu}>
+                      <Link to="#Contact" onClick={closeMenu}>
                         CONTACT
                       </Link>
                     </li>

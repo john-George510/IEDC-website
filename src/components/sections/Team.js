@@ -4,6 +4,7 @@ import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay, Navigation, Pagination, Scrollbar } from "swiper";
+import { HashScroll } from "react-hash-scroll";
 import { team, faculty } from "../../data/team";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
@@ -61,100 +62,102 @@ const Team = ({
     const swiper = useSwiper();
 
     return (
-        <section {...props} className={outerClasses}>
-            <div className="container">
-                <div className={innerClasses}>
-                    <SectionHeader
-                        data={sectionHeader_Faculty}
-                        className="center-content achv-heading"
-                    />
-                    <div className={`${tilesClasses} slider-container`}>
+        <HashScroll hash="#Team" position="start">
+            <section {...props} className={outerClasses}>
+                <div className="container">
+                    <div className={innerClasses}>
+                        <SectionHeader
+                            data={sectionHeader_Faculty}
+                            className="center-content achv-heading"
+                        />
+                        <div className={`${tilesClasses} slider-container`}>
 
-                        <Swiper
-                            spaceBetween={10}
-                            autoplay={{
-                                delay: 2500,
-                                disableOnInteraction: false,
-                            }}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            slidesPerView={1}
-                            navigation={true}
-                            modules={[Autoplay, Pagination, Navigation, Scrollbar]}
-                            breakpoints={{
-                                640: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 30,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 20,
-                                },
-                            }}
-                            // Scrollbar={{ draggable: true }}
+                            <Swiper
+                                spaceBetween={10}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                slidesPerView={1}
+                                navigation={true}
+                                modules={[Autoplay, Pagination, Navigation, Scrollbar]}
+                                breakpoints={{
+                                    640: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 30,
+                                    },
+                                    1024: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 20,
+                                    },
+                                }}
+                                // Scrollbar={{ draggable: true }}
 
-                            className="mySwiper"
-                        >
-                            {/* <button onClick={() => swiper.slidePrev(100, true)}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</button> */}
-                            {faculty.map((d, i) => (
-                                <SwiperSlide index={i}><TeamCard data={d} /></SwiperSlide>
-                            ))}
+                                className="mySwiper"
+                            >
+                                {/* <button onClick={() => swiper.slidePrev(100, true)}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</button> */}
+                                {faculty.map((d, i) => (
+                                    <SwiperSlide index={i}><TeamCard data={d} /></SwiperSlide>
+                                ))}
 
-                            {/* <button onClick={() => swiper.slideNext(100, true)}>TTvvvvvvvvvvvvvvvvvvvvvvvvvvvT</button> */}
-                        </Swiper>
-                    </div>
-                    <SectionHeader
-                        data={sectionHeader}
-                        className="center-content achv-heading"
-                    />
-                    <div className={`${tilesClasses} slider-container`}>
+                                {/* <button onClick={() => swiper.slideNext(100, true)}>TTvvvvvvvvvvvvvvvvvvvvvvvvvvvT</button> */}
+                            </Swiper>
+                        </div>
+                        <SectionHeader
+                            data={sectionHeader}
+                            className="center-content achv-heading"
+                        />
+                        <div className={`${tilesClasses} slider-container`}>
 
-                        <Swiper
-                            spaceBetween={10}
-                            autoplay={{
-                                delay: 2500,
-                                disableOnInteraction: false,
-                            }}
-                            pagination={{
-                                clickable: true,
-                            }}
-                            slidesPerView={1}
-                            navigation={true}
-                            modules={[Autoplay, Pagination, Navigation, Scrollbar]}
-                            breakpoints={{
-                                640: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 30,
-                                },
-                                1024: {
-                                    slidesPerView: 3,
-                                    spaceBetween: 20,
-                                },
-                            }}
-                            // Scrollbar={{ draggable: true }}
+                            <Swiper
+                                spaceBetween={10}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                pagination={{
+                                    clickable: true,
+                                }}
+                                slidesPerView={1}
+                                navigation={true}
+                                modules={[Autoplay, Pagination, Navigation, Scrollbar]}
+                                breakpoints={{
+                                    640: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 20,
+                                    },
+                                    768: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 30,
+                                    },
+                                    1024: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 20,
+                                    },
+                                }}
+                                // Scrollbar={{ draggable: true }}
 
-                            className="mySwiper"
-                        >
-                            {/* <button onClick={() => swiper.slidePrev(100, true)}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</button> */}
-                            {team.map((d, i) => (
-                                <SwiperSlide index={i}><TeamCard data={d} /></SwiperSlide>
-                            ))}
+                                className="mySwiper"
+                            >
+                                {/* <button onClick={() => swiper.slidePrev(100, true)}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</button> */}
+                                {team.map((d, i) => (
+                                    <SwiperSlide index={i}><TeamCard data={d} /></SwiperSlide>
+                                ))}
 
-                            {/* <button onClick={() => swiper.slideNext(100, true)}>TTvvvvvvvvvvvvvvvvvvvvvvvvvvvT</button> */}
-                        </Swiper>
+                                {/* <button onClick={() => swiper.slideNext(100, true)}>TTvvvvvvvvvvvvvvvvvvvvvvvvvvvT</button> */}
+                            </Swiper>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </HashScroll>
     );
 };
 
