@@ -120,7 +120,7 @@ const Header = ({
                       </Link>
                     </li>
                     <li className="li-class">
-                      <Link to="#5" onClick={closeMenu}>
+                      <Link to="/ignites" onClick={closeMenu}>
                         IGNITES
                       </Link>
                     </li>
