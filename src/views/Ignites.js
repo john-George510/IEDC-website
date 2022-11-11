@@ -39,12 +39,12 @@ const Ignites = ({
                     <div className={innerClasses}>
                         {/* <div className="hero-content"> */}
                             <div className='flex justify-center items-center'>
-                                <h1 className="mt-0 mb-16 reveal-from-bottom z-10 para text-6xl text-slate-200" data-reveal-delay="200">ignit<span className='text-color-primary'>ES '22</span></h1>
+                                <h1 className="mt-0 mb-16 reveal-from-bottom z-10 para text-5xl text-slate-200" data-reveal-delay="200">ignit<span className='text-color-primary'>ES '22</span></h1>
                                 <Background />
                             </div>
                         {/* </div> */}
                         <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-                            <h2 className="mt-0 mb-16 reveal-from-bottom z-10 para text-4xl text-slate-400" data-reveal-delay="600">Coming soon</h2>
+                            <h2 className="mt-0 mb-16 reveal-from-bottom z-10 para text-3xl text-slate-400" data-reveal-delay="600">Coming soon</h2>
                         </div>
                     </div>
                 </div>
