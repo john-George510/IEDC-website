@@ -8,7 +8,8 @@ import upcomingevents from "../../data/upcomingevents";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
 // import "swiper/modules/pagination/pagination.min.css";
-import 'swiper/css';
+import "swiper/css";
+import "swiper/css/pagination";
 import "./upcomingevents.css";
 import UpcomCard from "../layout/UpcomCard";
 
@@ -91,9 +92,10 @@ const UpcomingEvents = ({
               className="mySwiper"
             >
               {upcomingevents.map((d, i) => (
-                <SwiperSlide><UpcomCard data={d}/></SwiperSlide>
+                <SwiperSlide>
+                  <UpcomCard data={d} />
+                </SwiperSlide>
               ))}
-              
             </Swiper>
           </div>
         </div>
