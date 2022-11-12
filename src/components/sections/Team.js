@@ -74,6 +74,10 @@ const Team = ({
 
                             <Swiper
                                 spaceBetween={10}
+                                lazy={{
+                                    enabled: true,
+                                    loadPrevNext: true,
+                                }}
                                 autoplay={{
                                     delay: 2500,
                                     disableOnInteraction: false,
@@ -118,6 +122,10 @@ const Team = ({
 
                             <Swiper
                                 spaceBetween={10}
+                                lazy={{
+                                    enabled: true,
+                                    loadPrevNext: true,
+                                }}
                                 autoplay={{
                                     delay: 2500,
                                     disableOnInteraction: false,
@@ -148,7 +156,7 @@ const Team = ({
                             >
                                 {/* <button onClick={() => swiper.slidePrev(100, true)}>SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS</button> */}
                                 {team.map((d, i) => (
-                                    <SwiperSlide index={i}><TeamCard data={d} /></SwiperSlide>
+                                    <SwiperSlide index={i} ><TeamCard data={d} /></SwiperSlide>
                                 ))}
 
                                 {/* <button onClick={() => swiper.slideNext(100, true)}>TTvvvvvvvvvvvvvvvvvvvvvvvvvvvT</button> */}
