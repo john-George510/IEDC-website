@@ -1,0 +1,147 @@
+
+
+body {
+  overflow: hidden;
+  background: radial-gradient(circle at top right,transparent 10px,rgb(231, 35, 188), rgb(249, 0, 83),rgb(222, 140, 167));
+}
+.main{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  }
+
+.box{
+  position:absolute;
+
+  top :0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+.box li{
+position: absolute;
+display: block;
+list-style: none;
+width: 25px;
+height: 25px;
+background: #fcfbfb;
+animation: animate 10s linear infinite;
+bottom : -150px;
+border-radius: 50%;
+}
+.box li:nth-child(1){
+left: 86%;
+width: 80px;
+height: 80px;
+animation-delay: 0s;
+}
+
+.box li:nth-child(6){
+left: 16%;
+width: 110px;
+height: 110px;
+animation-delay: 0s;
+}
+.box li:nth-child(2){
+left: 12%;
+width: 30px;
+height: 30px;
+animation-delay: 1.5s;
+animation-duration: 6s;
+
+}
+.box li:nth-child(3){
+left: 70%;
+width: 100px;
+height: 100px;
+animation-delay: 5s;
+}
+.box li:nth-child(4){
+left: 45%;
+width: 150px;
+height: 150px;
+animation-delay: 0s;
+animation-duration: 12s;
+}
+.box li:nth-child(5){
+left: 65%;
+width: 40px;
+height: 40px;
+animation-delay: 0s;
+}
+@keyframes animate{
+0%{
+  transform: translateX(0)scale(0);
+}
+100%{
+  transform: translateY(-800px) scale(2);
+  opacity: 0;
+}
+}
+
+
+
+
+#box1{
+width:530px;
+height:625px;
+background-image: src ="C:\Users\ADITH\Desktop\PROJECTS\Enovus\logo.png" ;
+position:absolute;
+bottom: -100%;
+left: 50%;
+animation: anim 2s forwards;
+/* anim2 3s forwards 3s; */
+}
+#image{
+position: relative;
+bottom:-100%;
+animation: anim 2s forwards 3s;
+
+}
+#box1:after{
+content:'';
+width:530px;
+height:625px;
+position:absolute;
+bottom: -100%;
+left: 0px;
+z-index: -1;
+}
+@keyframes anim{
+from{
+  bottom: -100%;
+}
+to{
+  bottom: 0%;
+}
+}
+
+#box2{
+width: auto;
+height: auto;
+font-family:'Bahnschrift Condensed' ;
+color: white;
+font-size: 8em;
+font-weight: 500;
+line-height: 140px;
+position: absolute;
+top:150px;
+left: 200px;
+overflow: hidden;
+}
+#text{
+position: relative;
+left:-100%;
+text-shadow: 0px 0px 8px #fcfbfb;
+animation: anim3 2s forwards 3s;
+}
+@keyframes anim3{
+from{
+  left: -120%;
+}
+to{
+  left: 0%;
+}
+}
