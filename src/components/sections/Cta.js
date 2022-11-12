@@ -67,7 +67,7 @@ const Cta = ({
               </svg>
             </Input>
           </div> */}
-            <div className='box flex flex-row justify-around'>
+            <div className='contact-box flex flex-row justify-around'>
               <div className='contact mr-7 flex flex-col'>
                 <p className='contact-name text-base font-semibold text-blue-100 mb-1'>
                   Contact : Gokul Suresh
