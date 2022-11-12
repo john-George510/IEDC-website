@@ -26,7 +26,6 @@
   .bottom-ue > p {
       height: auto;
       overflow-y: scroll;
-      margin-top: 10px !important;
       
       -ms-overflow-style: none;  
       scrollbar-width: none;  

@@ -68,14 +68,14 @@ const Hero = ({
                 COLLEGE OF ENGINEERING, TRIVANDRUM
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+                {/* <ButtonGroup>
                   <Button tag="a" color='primary' style={{ outline: '1px solid #5658dd', backgroundColor: 'transparent' }} wideMobile href="#">
                     Join US
                   </Button>
-                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
-                    </Button> */}
-                </ButtonGroup>
+                    </Button> 
+                </ButtonGroup> */}
               </div>
             </div>
           </div>
