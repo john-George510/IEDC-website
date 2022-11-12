@@ -115,7 +115,7 @@ const Header = ({
                     )}
                   >
                     <li className="li-class">
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/enovus" onClick={closeMenu}>
                         E-NOVUS
                       </Link>
                     </li>
