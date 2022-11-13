@@ -70,18 +70,18 @@ const Cta = ({
             <div className='contact-box flex flex-row justify-around'>
               <div className='contact mr-7 flex flex-col'>
                 <p className='contact-name text-base font-semibold text-blue-100 mb-1'>
-                  Contact : Gokul Suresh
+                  Contact : Adarsh K (CEO)
                 </p>
                 <p className='text-base text-blue-100 mb-1'>
-                  Phone : 944 777 7777
+                  Email : ceoiedc@cet.ac.in
                 </p>
               </div>
               <div className='flex flex-col md:ml-0'>
                 <p className='text-base font-semibold text-blue-100 mb-1'>
-                  Contact : Gokul Suresh
+                  Contact : Akhil Hayash M (CMO)
                 </p>
                 <p className='text-base text-blue-100 mb-1'>
-                  Phone : 944 777 7777
+                  Email : cmoiedc@cet.ac.in
                 </p>
               </div>
             </div>
