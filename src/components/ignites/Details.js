@@ -56,11 +56,19 @@ const Details = ({
         paragraph: "",
     };
 
+    const styles = {
+        background: 'rgba(0, 0, 0, 0.5)',
+        backdropFilter: 'blur(3px)',
+        WebkitBackdropFilter: 'blur(3px)',
+        borderRadius: '24px',
+        padding: '20px',
+    }
+
     return (
         <HashScroll hash="#About" position="start">
             <section {...props} className={outerClasses}>
                 <div className="container pt-0 pb-0">
-                    <div className={innerClasses}>
+                    <div className={innerClasses} style={styles}>
                         <SectionHeader data={sectionHeader} className="center-content" />
                         <div className={splitClasses}>
                             <div className="split-item">
@@ -73,7 +81,7 @@ const Details = ({
                 </div> */}
                                     <h3 className="mt-0 mb-12">WHAT IS IGNITES?</h3>
                                     <p className="m-0 text-justify">
-                                    ignitES is a 16-week long comprehensive programme conducted jointly by IEDC CET and College of Engineering Alumni Association Chennai(CETAAC), to help mould aspiring entrepreneurs, and give them support and guidance in developing ideas and converting them into viable businesses.
+                                        ignitES is a 16-week long comprehensive programme conducted jointly by IEDC CET and College of Engineering Alumni Association Chennai(CETAAC), to help mould aspiring entrepreneurs, and give them support and guidance in developing ideas and converting them into viable businesses.
                                     </p>
 
                                 </div>
