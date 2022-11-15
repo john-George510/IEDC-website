@@ -5,12 +5,10 @@ import SectionHeader from "../sections/partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import events from "../../data/Ignites/events";
-// import "swiper/swiper-bundle.css";
-// import "swiper/swiper.min.css";
-// import "swiper/modules/pagination/pagination.min.css";
+import { urlFor, client } from "../../client";
 import 'swiper/css';
 import "./styles.css";
-import UpcomCard from "../layout/UpcomCard";
+import EventCard from "./EventCard";
 
 const propTypes = {
     ...SectionTilesProps.types,
@@ -54,13 +52,24 @@ const Events = ({
         paragraph: "",
     };
 
-    const [upcomingevents, setUpcomingEvents] = useState(events);
+    const [upcomingevents, setUpcomingEvents] = useState([]);
 
     useEffect(() => {
-        const UEvents = events.filter((event) => {
-            return new Date(`${event.date}`) > new Date();
+        const query = '*[_type == "events"]'
+        // const UEvents = events.filter((event) => {
+        //     return new Date(`${event.date}`) > new Date();
+        // });
+        // setUpcomingEvents(UEvents);
+        client.fetch(query).then((res) => {
+            const UEvents = res.filter((event) => {
+                return new Date(`${event.date}`) > new Date();
+            });
+            setUpcomingEvents(UEvents);
+        })
+        .catch((err) => {
+            console.log("Sanity Ignites Event fetching : " + err);
         });
-        setUpcomingEvents(UEvents);
+
     }, []);
 
     return (
@@ -103,7 +112,7 @@ const Events = ({
                         >
                             {upcomingevents.map((d, i) => {
                                 return (
-                                <SwiperSlide key={i}><UpcomCard data={d} /></SwiperSlide>
+                                <SwiperSlide key={i}><EventCard data={d} /></SwiperSlide>
                             )})}
 
                         </Swiper>
