@@ -101,3 +101,19 @@
         display: none;
     }
 }
+
+
+@media screen and (max-width: 450px) {
+    .contact-box {
+      flex-direction: column;
+    }
+  
+    .contact {
+      margin-right: 0px;
+      margin-bottom: 0.5rem/* 8px */;
+    }
+  
+    .contact-form {
+      width: 90%;
+    }
+  }

@@ -72,7 +72,7 @@ const Details = ({
                   Lightning fast workflow
                 </div> */}
                                     <h3 className="mt-0 mb-12">WHAT IS IGNITES?</h3>
-                                    <p className="m-0">
+                                    <p className="m-0 text-justify">
                                     ignitES is a 16-week long comprehensive programme conducted jointly by IEDC CET and College of Engineering Alumni Association Chennai(CETAAC), to help mould aspiring entrepreneurs, and give them support and guidance in developing ideas and converting them into viable businesses.
                                     </p>
 
@@ -130,7 +130,7 @@ const Details = ({
                                         <ul>
                                             <li>Provide students with hands-on guidance in project management, teamwork, business and marketing.</li>
                                             <li>Get exposure to various fields like marketing, logistics, public relations and other areas of management.</li>
-                                            <li> Inspire and motivate young innovators of CET to come forward with their path-breaking ideas.</li>
+                                            <li>Inspire and motivate young innovators of CET to come forward with their path-breaking ideas</li>
                                         </ul>
                                     </div>
                                 </div>
