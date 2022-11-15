@@ -73,7 +73,7 @@ const Details = ({
                 </div> */}
                                     <h3 className="mt-0 mb-12">WHAT IS IGNITES?</h3>
                                     <p className="m-0">
-                                        Adipisicing duis aute ut fugiat. Elit commodo Lorem laborum labore. Mollit sunt amet ullamco aute ea cillum anim. Ea veniam adipisicing excepteur adipisicing anim. Cupidatat veniam sint dolor nisi velit aliquip eiusmod ut non occaecat. Sunt eiusmod Lorem aute est elit magna ex.
+                                    ignitES is a 16-week long comprehensive programme conducted jointly by IEDC CET and College of Engineering Alumni Association Chennai(CETAAC), to help mould aspiring entrepreneurs, and give them support and guidance in developing ideas and converting them into viable businesses.
                                     </p>
 
                                 </div>
@@ -128,9 +128,9 @@ const Details = ({
                                     </h3>
                                     <div className="m-0">
                                         <ul>
-                                            <li>Enim eiusmod ad aliqua culpa cillum dolore veniam ad.</li>
-                                            <li>Minim id laborum anim culpa ut aliquip adipisicing veniam velit duis aliqua sint.</li>
-                                            <li>Nulla fugiat Lorem aliqua cillum.</li>
+                                            <li>Provide students with hands-on guidance in project management, teamwork, business and marketing.</li>
+                                            <li>Get exposure to various fields like marketing, logistics, public relations and other areas of management.</li>
+                                            <li> Inspire and motivate young innovators of CET to come forward with their path-breaking ideas.</li>
                                         </ul>
                                     </div>
                                 </div>
