@@ -91,4 +91,4 @@ const Hero = ({
 Hero.propTypes = propTypes;
 Hero.defaultProps = defaultProps;
 
-export default Hero;
+export default Hero;
