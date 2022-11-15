@@ -1,9 +1,9 @@
 import Hero from "../components/ignites/Hero";
-import Background from '../components/layout/partials/Background'
 import Gallery from "../components/ignites/Gallery";
 import Details from "../components/ignites/Details";
 import Events from "../components/ignites/Events";
 import Contact from "../components/ignites/Contact";
+import Background from '../components/layout/partials/Background'
 
 const Ignites = () => {
     return (
