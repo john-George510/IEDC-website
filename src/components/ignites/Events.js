@@ -5,6 +5,7 @@ import SectionHeader from "../sections/partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import { client } from "../../client";
+import { HashScroll } from "react-hash-scroll";
 import 'swiper/css';
 import "./styles.css";
 import EventCard from "./EventCard";
@@ -72,6 +73,7 @@ const Events = ({
     }, []);
 
     return (
+        <HashScroll hash="#Events" position="start">
         <section {...props} className={outerClasses}>
             <div className="container">
                 <div className={innerClasses}>
@@ -119,6 +121,7 @@ const Events = ({
                 </div>
             </div>
         </section>
+        </HashScroll>
     );
 };
 

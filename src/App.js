@@ -6,6 +6,7 @@ import ScrollReveal from './utils/ScrollReveal';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
+import LayoutIgnites from './layouts/LayoutIgnites';
 
 // Views 
 import Home from './views/Home';
@@ -39,7 +40,7 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
-          <AppRoute exact path="/ignites" component={Ignites} layout={LayoutDefault} />
+          <AppRoute exact path="/ignites" component={Ignites} layout={LayoutIgnites} />
           <AppRoute exact path="/enovus" component={Enovus} />
         </Switch>
       )} />
