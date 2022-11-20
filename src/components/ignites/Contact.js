@@ -93,11 +93,18 @@ const Contact = (className,
         split && 'cta-split',
         'contact-form'
     );
+    const style = {
+        background: 'rgba(0, 0, 0, 0.5)',
+        backdropFilter: 'blur(3px)',
+        WebkitBackdropFilter: 'blur(3px)',
+        borderRadius: '10px',
+    }
+
     return (
         <HashScroll hash="#Contact" position="start">
             <section className='relative z-10'>
                 <div className="container" style={{ justifyContent: 'center' }}>
-                    <div className={`${innerClasses} pr-7 pl-7 bg-transparent border bg-slate- rounded-lg`} >
+                    <div className={`${innerClasses} pr-7 pl-7 bg-transparent border bg-slate- rounded-lg`} style={style}>
                         <div className='contact-box flex flex-row justify-around'>
                             <div className='contact mr-7 flex flex-col'>
                                 <p className='contact-name text-base font-semibold text-white mb-1'>
