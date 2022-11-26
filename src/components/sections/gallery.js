@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
-import data from "../../data/gallery";
+// import data from "../../data/gallery";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
 // import "swiper/modules/pagination/pagination.min.css";
 import "swiper/css";
 import "./achievements.css";
+import { client, urlFor } from "../../client";
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -51,6 +52,26 @@ const Gallery = ({
     title: "Gallery",
     paragraph: "",
   };
+
+  const [data, setData] = useState([]);
+
+    useEffect(() => {
+        const query = '*[_type == "gallery_iedc"]'
+        // const UEvents = events.filter((event) => {
+        //     return new Date(`${event.date}`) > new Date();
+        // });
+        // setUpcomingEvents(UEvents);
+        client.fetch(query).then((res) => {
+            // const UEvents = res.filter((event) => {
+            //     return new Date(`${event.date}`) > new Date();
+            // });
+            setData(res);
+        })
+        .catch((err) => {
+            console.log("Sanity Ignites Event fetching : " + err);
+        });
+
+    }, []);
   
   return (
     <section {...props} className={outerClasses}>
@@ -65,10 +86,11 @@ const Gallery = ({
               {data.map((item) => {
                 return (
                   <div className="gallerycol">
-                    <p className="gallery-text">{item.text}</p>
+                    <p className="gallery-text">{item.name}</p>
                     <img
                       className="gal-img"
-                      src={`/gallery/${item.img}`}
+                      // src={`/gallery/${item.img}`}
+                      src={urlFor(item.imgUrl)}
                       alt={item.text}
                     />
                   </div>
