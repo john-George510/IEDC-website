@@ -55,7 +55,7 @@ const Events = ({
     const [upcomingevents, setUpcomingEvents] = useState([]);
 
     useEffect(() => {
-        const query = '*[_type == "events"]'
+        const query = '*[_type == "events_ignites"]'
         // const UEvents = events.filter((event) => {
         //     return new Date(`${event.date}`) > new Date();
         // });
