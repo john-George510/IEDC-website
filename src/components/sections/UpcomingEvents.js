@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import classNames from "classnames";
 import { SectionTilesProps } from "../../utils/SectionProps";
 import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
-import upcomingevents from "../../data/upcomingevents";
+import { client } from "../../client";
+// import upcomingevents from "../../data/upcomingevents";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
 // import "swiper/modules/pagination/pagination.min.css";
@@ -53,6 +54,26 @@ const UpcomingEvents = ({
     title: "Upcoming Events",
     paragraph: "",
   };
+
+  const [upcomingevents, setUpcomingEvents] = useState([]);
+
+    useEffect(() => {
+        const query = '*[_type == "events_iedc"]'
+        // const UEvents = events.filter((event) => {
+        //     return new Date(`${event.date}`) > new Date();
+        // });
+        // setUpcomingEvents(UEvents);
+        client.fetch(query).then((res) => {
+            const UEvents = res.filter((event) => {
+                return new Date(`${event.date}`) > new Date();
+            });
+            setUpcomingEvents(UEvents);
+        })
+        .catch((err) => {
+            console.log("Sanity Ignites Event fetching : " + err);
+        });
+
+    }, []);
 
   return (
     <section {...props} className={outerClasses}>
