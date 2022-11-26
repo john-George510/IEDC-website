@@ -81,7 +81,7 @@ const Header = ({
 
   return (
     <header {...props} className={classes}>
-      <div className="container">
+      <div className="container" style={{ paddingBottom: "0px" }}>
         <div className="logo">
           <Logo />
         </div>
