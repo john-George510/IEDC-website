@@ -32,11 +32,11 @@ const Background = () => {
                     interactivity: {
                         events: {
                             onClick: {
-                                enable: true,
+                                enable: false,
                                 mode: "push",
                             },
                             onHover: {
-                                enable: true,
+                                enable: false,
                                 // mode: "grab",
                             },
                             resize: true,
