@@ -18,6 +18,6 @@ export { default as Usman_A_Asan } from './Usman_A_Asan.png'
 export { default as Vishal_Nair } from './Vishal_Nair.png'
 
 
-export { default as Principal } from './Faculty/Principal.png'
+export { default as Principal } from './Faculty/Principal.jpg'
 export { default as Dr_Gijoy_S } from './Faculty/Dr_Gijoy_S.png'
 export { default as Dr_Raju_C } from './Faculty/Dr_Raju_C.png'
