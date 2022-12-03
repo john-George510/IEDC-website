@@ -1,4 +1,7 @@
 # IEDC-website
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 Official website of IEDC CET
 
 ## Usage
@@ -23,6 +26,20 @@ You will also see any lint errors in the console.
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="http://oronium.com"><img src="https://avatars.githubusercontent.com/u/59858506?v=4?s=100" width="100px;" alt="Don Jose Mathew"/><br /><sub><b>Don Jose Mathew</b></sub></a><br /><a href="https://github.com/IEDC-CET/IEDC-website/commits?author=donjosemathew" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-green.svg?style=flat-square)](#contributors)
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
