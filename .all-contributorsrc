@@ -7,6 +7,15 @@
   "commitConvention": "angular",
   "contributors": [
     {
+      "login": "donjosemathew",
+      "name": "Don Jose Mathew",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59858506?v=4",
+      "profile": "http://oronium.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "Anirudh-A-V",
       "name": "Anirudh A V",
       "avatar_url": "https://avatars.githubusercontent.com/u/76550448?v=4",
@@ -14,7 +23,7 @@
       "contributions": [
         "code"
       ]
-    }
+      },
   ],
   "contributorsPerLine": 7,
   "skipCi": true,
