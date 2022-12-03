@@ -14,7 +14,16 @@
       "contributions": [
         "code"
       ]
-    }
+    },
+    {
+      "login": "Anirudh-A-V",
+      "name": "Anirudh A V",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76550448?v=4",
+      "profile": "https://github.com/Anirudh-A-V",
+      "contributions": [
+        "code"
+      ]
+      },
   ],
   "contributorsPerLine": 7,
   "skipCi": true,

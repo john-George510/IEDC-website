@@ -31,7 +31,11 @@ You will also see any lint errors in the console.
 <table>
   <tbody>
     <tr>
+
       <td align="center"><a href="http://oronium.com"><img src="https://avatars.githubusercontent.com/u/59858506?v=4?s=100" width="100px;" alt="Don Jose Mathew"/><br /><sub><b>Don Jose Mathew</b></sub></a><br /><a href="https://github.com/IEDC-CET/IEDC-website/commits?author=donjosemathew" title="Code">💻</a></td>
+
+      <td align="center"><a href="https://github.com/Anirudh-A-V"><img src="https://avatars.githubusercontent.com/u/76550448?v=4?s=100" width="100px;" alt="Anirudh A V"/><br /><sub><b>Anirudh A V</b></sub></a><br /><a href="https://github.com/IEDC-CET/IEDC-website/commits?author=Anirudh-A-V" title="Code">💻</a></td>
+
     </tr>
   </tbody>
 </table>
@@ -40,7 +44,7 @@ You will also see any lint errors in the console.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-green.svg?style=flat-square)](#contributors)
+
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
