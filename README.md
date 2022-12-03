@@ -24,87 +24,66 @@ You will also see any lint errors in the console.
 
 ## Contributors ✨
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="github-markdown.css">
-
-<style>
-  .contributor {
-    display: inline-block;
-    margin: 0 10px 10px 0;
-    text-align: center;
-  }
-  .contributor img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-  }
-  .contributor a {
-    display: block;
-    margin-top: 5px;
-    font-size: 14px;
-    color: #398af2;
-    text-decoration: none;
-  }
-</style>
+<br>
 
 <div align="center" id="identifier" class="contributions" >
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>IEDC CET</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Anirudh A V</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Don Jose Mathew</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Jaidan Sleeba</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Varun Krishna</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Adith Ramdas</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Arjun A I</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Abhijith G</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Adithyan T</b></sub>
     </a>
 </div>
-<div class="contributor">
-    <a href="" target="_blank">
-        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt=""/><br />
+<div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
+    <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
+        <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
         <sub><b>Binto Joseph</b></sub>
     </a>
 </div>
