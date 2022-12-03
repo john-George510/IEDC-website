@@ -22,25 +22,4 @@ You will also see any lint errors in the console.
 
 ## Contributors
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://github.com/Anirudh-A-V"><img src="https://avatars.githubusercontent.com/u/76550448?v=4?s=100" width="100px;" alt="Anirudh A V"/><br /><sub><b>Anirudh A V</b></sub></a><br /><a href="https://github.com/IEDC-CET/IEDC-website/commits?author=Anirudh-A-V" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-</table>
 
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
