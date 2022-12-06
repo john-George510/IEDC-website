@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 
 <br>
 
-<div align="center" id="identifier" class="contributions" >
+<!-- <div align="center" id="identifier" class="contributions" >
 <div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
     <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
         <img src="https://avatars1.githubusercontent.com/u/43892590?s=460&v=4" width="100px;" alt="" style="border-radius: 50%; width: 100px; height: 100px;"/><br />
@@ -87,4 +87,4 @@ You will also see any lint errors in the console.
         <sub><b>Binto Joseph</b></sub>
     </a>
 </div>
-</div>
+</div> -->
