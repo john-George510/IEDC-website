@@ -26,6 +26,12 @@ You will also see any lint errors in the console.
 
 <br>
 
+<a href="https://github.com/IEDC-CET/IEDC-website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=IEDC-CET/IEDC-website" />
+</a>
+
+
+
 <!-- <div align="center" id="identifier" class="contributions" >
 <div style="display: inline-block; margin: 0 10px 10px 0; text-align: center;">
     <a href="" target="_blank" style="display: block; margin-top: 5px; font-size: 14px; color: #398af2; text-decoration: none;">
