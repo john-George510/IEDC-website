@@ -8,14 +8,14 @@ const upcomingevents = [
     date: "01/10/2022",
     time: "06:30pm",
     venue: "Gmeet",
-    img: marketing,
+    img: "marketing",
   },
   {
     title: "Get To Know Python",
     date: "04/09/2022",
     time: "06:00pm",
     venue: "Gmeet",
-    img: python,
+    img: "python",
   },
   {
     title: "Sales and Marketing Workshop",

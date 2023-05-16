@@ -5,7 +5,6 @@ import SectionHeader from "./partials/SectionHeader";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import { client } from "../../client";
-// import upcomingevents from "../../data/upcomingevents";
 // import "swiper/swiper-bundle.css";
 // import "swiper/swiper.min.css";
 // import "swiper/modules/pagination/pagination.min.css";
@@ -13,6 +12,17 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./upcomingevents.css";
 import UpcomCard from "../layout/UpcomCard";
+
+const upcevents = [
+  {
+    title: "Starter Kit Workshop",
+    date: "17/05/2023",
+    time: "10:30pm",
+    venue: "Gmeet",
+    img: "starter_kit",
+    link:'https://docs.google.com/forms/d/e/1FAIpQLScFG372-TEJvrn_lztNJODGlkTLYbjAYCxvFQtok_REEVKOlw/viewform?usp=sharing'
+  },
+]
 
 const propTypes = {
   ...SectionTilesProps.types,
@@ -112,9 +122,9 @@ const UpcomingEvents = ({
               }}
               className="mySwiper"
             >
-              {upcomingevents.map((d, i) => (
+              {upcevents.map((d, i) => (
                 <SwiperSlide>
-                  <UpcomCard data={d} />
+                  <UpcomCard data={d} key={i}/>
                 </SwiperSlide>
               ))}
             </Swiper>

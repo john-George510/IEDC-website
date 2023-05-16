@@ -19,13 +19,14 @@ const UpcomCard = ({ data }) => {
   return (
     <div className="upcoming-events" style={styles}>
       <div className="top-ue">
-        <img src={urlFor(data.imgUrl)} alt="" />
+        <img src={`/Images/${data.img}.png`} alt="event" />
       </div>
       <div className="bottom-ue flex flex-col justify-center items-center">
+        <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.title}</span>
         <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.name}</span>
         {/* <p className="mt-3 mb-0 text-sm">Date: {data.date}</p> */}
-        <p className="mt-3 mb-0 text-sm">Date: {date()}</p>
-        {/* <p className="mt-3 mb-0 text-sm">Date: {`${data.date.getUTCDate()} / ${data.date.getUTCMonth()} / ${data.date.getUTCFullYear()}`}</p>
+        <p className="mt-3 mb-0 text-sm">Date: {data.date}</p>
+        {/* <p className="mt-3 mb-0 text-sm">Date: {`${<data className="date"></data>.getUTCDate()} / ${data.date.getUTCMonth()} / ${data.date.getUTCFullYear()}`}</p>
         <p className="mb-0 text-sm">Time: {`${data.date.getUTCHours() < 12 ? data.date.getUTCHours() : data.date.getUTCHours() - 12}:${data.date.getUTCMinutes()} ${data.date.getUTCHours() < 12 ? "AM" : "PM"}`}</p> */}
         <p className="mb-0 text-sm">{data.time ? `Time: ${data.time}` : ""}</p>
         <p className="mt-3 mb-0 text-sm">{data.venue ? `Venue: ${data.venue}` : ""}</p>
