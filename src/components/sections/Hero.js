@@ -53,7 +53,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom text-[1.2em] sm:text-4xl" data-reveal-delay="200">
+            <h1 className="mt-0 mb-16 reveal-from-bottom text-[1.1em] sm:text-4xl" data-reveal-delay="200">
               <span className="text-color-primary para xs:text-md sm:text-md sk:text-md">INNOVATION AND ENTREPRENEURSHIP DEVELOPMENT CENTRE</span>
             </h1>
             <div className="container-xs">

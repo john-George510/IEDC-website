@@ -16,8 +16,7 @@ import UpcomCard from "../layout/UpcomCard";
 const upcevents = [
   {
     title: "Starter Kit Workshop",
-    date: "22/05/2023",
-    time: "10:30am",
+    date: "22/05/2023-28/05/2023",
     venue: "Gmeet",
     img: "starter_kit_final",
     link:'https://docs.google.com/forms/d/e/1FAIpQLScFG372-TEJvrn_lztNJODGlkTLYbjAYCxvFQtok_REEVKOlw/viewform?usp=sharing'
