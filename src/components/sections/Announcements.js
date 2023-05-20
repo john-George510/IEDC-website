@@ -12,15 +12,12 @@ import { HashScroll } from "react-hash-scroll";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./upcomingevents.css";
-import UpcomCard from "../layout/UpcomCard";
+import UpcomCard from "../layout/AnnouncementCard";
 
 const upcevents = [
   {
-    title: "Starter Kit Workshop",
-    date: "22/05/2023-28/05/2023",
-    venue: "Gmeet",
-    img: "starter_kit_final",
-    link:'https://docs.google.com/forms/d/e/1FAIpQLScFG372-TEJvrn_lztNJODGlkTLYbjAYCxvFQtok_REEVKOlw/viewform?usp=sharing'
+    title: "INO Points",
+    vid: "INO",   
   },
 ]
 
@@ -32,7 +29,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults,
 };
 
-const UpcomingEvents = ({
+const Announcements = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -61,7 +58,7 @@ const UpcomingEvents = ({
   const tilesClasses = classNames("tiles-wrap", pushLeft && "push-left");
 
   const sectionHeader = {
-    title: "Upcoming Events",
+    title: "Announcements",
     paragraph: "",
   };
 
@@ -86,7 +83,7 @@ const UpcomingEvents = ({
     }, []);
 
   return (
-    <HashScroll hash="#UpcomingEvents" position="start">
+    <HashScroll hash="#Announcements" position="start">
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
@@ -137,7 +134,7 @@ const UpcomingEvents = ({
   );
 };
 
-UpcomingEvents.propTypes = propTypes;
-UpcomingEvents.defaultProps = defaultProps;
+Announcements.propTypes = propTypes;
+Announcements.defaultProps = defaultProps;
 
-export default UpcomingEvents;
+export default Announcements;

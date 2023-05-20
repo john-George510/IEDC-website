@@ -1,0 +1,46 @@
+.upcoming-events {
+    width: 300px !important;
+    max-width: 80vw !important;
+    height: 500px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .upcoming-events > .top-ue {
+    height: 50% !important;
+    width: 100%;
+  }
+  
+  .top-ue > img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bottom-ue {
+    margin-top: 10px !important;
+  }
+
+  .player
+  {
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+  
+  .bottom-ue > p {
+      height: auto;
+      overflow-y: scroll;
+      
+      -ms-overflow-style: none;  
+      scrollbar-width: none;  
+  }
+  .bottom-ue > p::-webkit-scrollbar {
+      display: none;
+  }
+  
+  
