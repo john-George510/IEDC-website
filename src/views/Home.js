@@ -8,6 +8,7 @@ import UpcomingEvents from "../components/sections/UpcomingEvents";
 import Cta from "../components/sections/Cta";
 import Gallery from "../components/sections/gallery";
 import Team from "../components/sections/Team";
+import Announcements from "../components/sections/Announcements";
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         className="illustration-section-02"
       />
       <UpcomingEvents topDivider />
+      <Announcements topDivider />
       <Achievements topDivider />
       <Gallery topDivider />
       <Team topDivider />

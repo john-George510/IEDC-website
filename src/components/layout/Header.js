@@ -130,6 +130,16 @@ const Header = ({
                       </Link>
                     </li>
                     <li className="li-class">
+                      <Link to="#UpcomingEvents" onClick={closeMenu}>
+                        EVENTS
+                      </Link>
+                    </li>
+                    <li className="li-class">
+                      <Link to="#Announcements" onClick={closeMenu}>
+                        ANNOUNCEMENTS
+                      </Link>
+                    </li>
+                    <li className="li-class">
                       <Link to="#Achievements" onClick={closeMenu}>
                         ACHIEVEMENTS
                       </Link>

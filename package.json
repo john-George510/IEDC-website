@@ -14,6 +14,7 @@
     "react-hash-scroll": "^1.4.7",
     "react-icons": "^4.6.0",
     "react-particles": "^2.5.3",
+    "react-player": "^2.12.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^5.0.1",
     "sass": "^1.49.7",
