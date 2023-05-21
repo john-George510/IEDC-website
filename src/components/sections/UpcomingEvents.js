@@ -22,6 +22,12 @@ const upcevents = [
     img: "starter_kit_final",
     link:'https://docs.google.com/forms/d/e/1FAIpQLScFG372-TEJvrn_lztNJODGlkTLYbjAYCxvFQtok_REEVKOlw/viewform?usp=sharing'
   },
+  {
+    title: "Sub Panel Call",
+    date: "Last date 26/05/2023",
+    img: "rec_call",
+    link:'https://forms.gle/n5bqyX49oxQrwqp69'
+  },
 ]
 
 const propTypes = {

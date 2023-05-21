@@ -40,9 +40,9 @@ const AnnouncementCard = ({ data }) => {
       <img
         src={`/Images/${data.media}.jpg`}
         alt=""
-        className="rounded-lg h-[110%] w-[110%]"
-        height="110%"
-        width="110%"
+        className="rounded-lg h-[110%] w-[110%] object-contain"
+        height="100%"
+        width="100%"
       />
     )}
   </div>
