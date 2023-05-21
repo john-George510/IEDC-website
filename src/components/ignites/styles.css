@@ -87,7 +87,7 @@
     display: block;
     width: 120%;
     height: 120%;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .swiper-pagination {

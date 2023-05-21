@@ -5,7 +5,7 @@ const TeamCard = ({ data }) => {
   return (
     <div className="achievement  rounded-2xl p-3">
       <div className="top">
-        <img src={`${data.img}`} alt="" />
+        <img src={`/Images/${data.img}`} alt="" />
       </div>
       <div className="flex flex-col justify-center">
         <span className="text-xl mt-2 font-semibold" >{data.name}</span>

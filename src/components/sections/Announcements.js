@@ -40,6 +40,12 @@ const upcevents = [
     mediaType: "video",
   },
   {
+    title:"Newsletter",
+    name:"Startup Kit Workhsop",
+    media:"newsletter",
+    mediaType:"image",
+  },
+  {
     title:"Speakers",
     name:"Startup Kit Workhsop",
     media:"speakers",
