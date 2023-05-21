@@ -22,7 +22,7 @@ const UpcomCard = ({ data }) => {
       <div className="top-ue">
         <img src={`/Images/${data.img}.jpg`} alt="event" />
       </div>
-      <div className="bottom-ue flex flex-col justify-center items-center">
+      <div className="bottom-ue flex flex-col justify-center items-center pt-9">
         <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.title}</span>
         <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.name}</span>
         {/* <p className="mt-3 mb-0 text-sm">Date: {data.date}</p> */}

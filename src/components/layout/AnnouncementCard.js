@@ -25,25 +25,38 @@ const AnnouncementCard = ({ data }) => {
 
   return (
     <div className="upcoming-events ml-2" style={styles}>
-      <div className="top-ue pt-3 rounded-lg">
-      <ReactPlayer url={`/Videos/${data.vid}.mp4`} controls={true} className="player w-[45%] h-[70%]" width="100%" height="100%" borderRadius="24px" style={stylep}/>
-      </div>
-      <div className="bottom-ue flex flex-col justify-center items-center">
-        <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.title}</span>
+    <div className="top-ue pt-3 rounded-lg">
+    {data.mediaType === "video" ? (
+      <ReactPlayer
+        url={`/Videos/${data.media}.mp4`}
+        controls={true}
+        className="player w-[45%] h-[70%]"
+        width="100%"
+        height="100%"
+        borderRadius="24px"
+        style={{ borderRadius: '24px' }} 
+      />
+    ) : (
+      <img
+        src={`/Images/${data.media}.jpg`}
+        alt=""
+        className="rounded-lg h-[110%] w-[110%]"
+        height="110%"
+        width="110%"
+      />
+    )}
+  </div>
+  
+      <div className="bottom-ue flex flex-col justify-center items-center mt-4">
+      <span
+      className={`text-base text-justify mt-8 ${
+        data.mediaType === "video" ? "pt-2" : "pt-14"
+      } font-semibold cursor-text`}
+    >
+      {data.title}
+    </span>
         <span className="text-base text-justify mt-2 font-semibold cursor-text" >{data.name}</span>
-        <p className="mb-0 text-sm">Introducing  𝗜𝗡𝗢 𝗣𝗢𝗜𝗡𝗧𝗦
-
-        A revolution in how CET thinks.
-        Your work and hardships will now be recognized by 𝗜𝗘𝗗𝗖 𝗖𝗘𝗧.
-        Earn through registrations to events and workshops
-        Redeem cash prize and vouchers.
-        
-        So what are you waiting for !!
-        Start framing your INO POINTS now.
-        
-        𝗖𝗢𝗠𝗣𝗘𝗧𝗘
-        𝗖𝗢𝗟𝗟𝗘𝗖𝗧
-        𝗖𝗢𝗡𝗡𝗘𝗖𝗧 </p>
+        <p className="mb-0 text-sm">{data.content}</p>
         {/* <p className="mt-3 mb-0 text-sm">Date: {data.date}</p> */}
         {/* <p className="mt-3 mb-0 text-sm">Date: {`${<data className="date"></data>.getUTCDate()} / ${data.date.getUTCMonth()} / ${data.date.getUTCFullYear()}`}</p>
         <p className="mb-0 text-sm">Time: {`${data.date.getUTCHours() < 12 ? data.date.getUTCHours() : data.date.getUTCHours() - 12}:${data.date.getUTCMinutes()} ${data.date.getUTCHours() < 12 ? "AM" : "PM"}`}</p> */}

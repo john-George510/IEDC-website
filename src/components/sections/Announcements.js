@@ -16,8 +16,52 @@ import UpcomCard from "../layout/AnnouncementCard";
 
 const upcevents = [
   {
-    title: "INO Points",
-    vid: "INO",   
+    name: "INO Points",
+    content:"Introducing  𝗜𝗡𝗢 𝗣𝗢𝗜𝗡𝗧𝗦"
+    +"\n\n"+
+    "A revolution in how CET thinks."
+    +"\n\n"+
+    "Your work and hardships will now be recognized by 𝗜𝗘𝗗𝗖 𝗖𝗘𝗧."
+    +"\n\n"+
+    "Earn through registrations to events and workshops"
+    +"\n\n"+
+    "Redeem cash prize and vouchers."
+    +"\n\n"+
+    "So what are you waiting for !!"
+    +"\n\n"+
+    "Start farming your INO POINTS now."
+    +"\n\n"+
+    "𝗖𝗢𝗠𝗣𝗘𝗧𝗘 "
+    +
+    "𝗖𝗢𝗟𝗟𝗘𝗖𝗧 "
+    +
+    "𝗖𝗢𝗡𝗡𝗘𝗖𝗧 ",
+    media: "INO",
+    mediaType: "video",
+  },
+  {
+    title:"Speakers",
+    name:"Startup Kit Workhsop",
+    media:"speakers",
+    mediaType:"image",
+  },
+  {
+    title:"Speaker 1",
+    name:"Startup Kit Workshop",
+    media:"speaker_1",
+    mediaType:"image",
+  },
+  {
+    title:"Speaker 2",
+    name:"Startup Kit Workshop",
+    media:"speaker_2",
+    mediaType:"image",
+  },
+  {
+    title:"Speaker 3",
+    name:"Startup Kit Workshop",
+    media:"speaker_3",
+    mediaType:"image",
   },
 ]
 
