@@ -60,7 +60,7 @@ const upcevents = [
   {
     title:"Speaker 2",
     name:"Startup Kit Workshop",
-    media:"speaker_2",
+    media:"speaker_2_main",
     mediaType:"image",
   },
   {
