@@ -42,5 +42,11 @@
   .bottom-ue > p::-webkit-scrollbar {
       display: none;
   }
+  .swiper-slide img{
+    display: block;
+    width: 110%;
+    height: 115%;
+    object-fit: cover;
+  }
   
   
