@@ -9,6 +9,13 @@ const team = [
         phone: "9400857755",
     },
     {
+        name: "Arya S Jayasree",
+        position: "Chief Finance Officer",
+        img: "Arya_S_Jayasree.png",
+        email: "cfoiedc@cet.ac.in",
+        phone: "6235741611",
+    },
+    {
         name: "Christo Stanley",
         position: "Chief Operating Officer",
         img: "christo_coo.jpeg",
@@ -25,7 +32,7 @@ const team = [
     {
         name: "Yena Sunil Kumar",
         position: "Chief Technical Officer",
-        img: "yena_cto_1.jpg",
+        img: "yena_cto_2.jpg",
         email: "ctoiedc@cet.ac.in",
         phone: "9074796012",
     },
