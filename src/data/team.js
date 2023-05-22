@@ -60,7 +60,7 @@ const team = [
     {
         name: "Sarang T K",
         position: "Chief Community Officer",
-        img: "sarang_cco.jpg",
+        img: "sarang_cco.JPG",
         email: "ccoiedc@cet.ac.in",
         phone: "7025140214",
     },
@@ -95,7 +95,7 @@ const team = [
     {
         name: "Treasa Mariya",
         position: "Public Relations Officer",
-        img: "treasa_pro.jpg",
+        img: "treasa_pro.JPG",
         email: "proiedc@cet.ac.in",
         phone: "9400843439",
     },
@@ -109,7 +109,7 @@ const team = [
     {
         name: "Mohammed Fasil",
         position: "Program Officer",
-        img: "fasil_cpo.jpg",
+        img: "fasil_cpo.JPG",
         email: "cpoiedc@cet.ac.in",
         phone: "9605953690",
     },
