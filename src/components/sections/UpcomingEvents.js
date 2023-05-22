@@ -28,6 +28,12 @@ const upcevents = [
     img: "sp_call",
     link:'https://forms.gle/n5bqyX49oxQrwqp69'
   },
+  {
+    title: "Young Innovators Programs",
+    date: "...",
+    img: "yip",
+    link:'https://forms.gle/KyVZLifMspTwc4oCA'
+  },
 ]
 
 const propTypes = {
