@@ -7,7 +7,7 @@ const TeamCard = ({ data }) => {
       <div className="top">
         <img src={`/Images/${data.img}`} alt="" />
       </div>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center mt-5 pt-5">
         <span className="text-xl mt-2 font-semibold" >{data.name}</span>
         <p className="mt-3 mb-0 text-sm">{data.position}</p>
         <p className="m-0 text-sm">{data.email}</p>
