@@ -25,7 +25,7 @@ const upcevents = [
   {
     title: "Sub Panel Call",
     date: "Last date 26/05/2023",
-    img: "rec_call",
+    img: "sp_call",
     link:'https://forms.gle/n5bqyX49oxQrwqp69'
   },
 ]
