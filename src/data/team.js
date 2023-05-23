@@ -18,16 +18,16 @@ const team = [
     {
         name: "Cristo Stanly",
         position: "Chief Operating Officer",
-        img: "christo_coo.jpeg",
+        img: "cristo_coo_1.jpeg",
         email: "cooiedc@cet.ac.in",
-        phone: "6235741611",
+        phone: "9747104733",
     },
     {
         name: "Shoen Varghese Joby",
         position: "Chief Operating Officer",
         img: "Shoen_Varghese_Joby.png",
         email: "cooiedc@cet.ac.in",
-        phone: "9747104733",
+        phone: "8111897544",
     },
     {
         name: "Akhil Hayash M",
@@ -51,9 +51,9 @@ const team = [
         phone: "9061354702",
     },
     {
-        name: "Gautham Lakshman",
+        name: "Gautam Lakshman",
         position: "Chief Marketing Officer",
-        img: "logo.png",
+        img: "gautam_cmo.jpg",
         email: "cmoiedc@cet.ac.in",
         phone: "8714438004",
     },
@@ -81,7 +81,7 @@ const team = [
     {
         name: "Meljo Jose",
         position: "Chief Social Media Officer",
-        img: "logo.png",
+        img: "meljo_designLead.jpeg",
         email: "csmooiedc@cet.ac.in",
         phone: "8075081397",
     },
@@ -118,7 +118,7 @@ const team = [
         position: "Program Officer",
         img: "bharath_cpo.jpg",
         email: "cpoiedc@cet.ac.in",
-        phone: "9847982852",
+        phone: "9847882852",
     },
     {
         name: "Varsha Nandakumar",
@@ -137,14 +137,14 @@ const team = [
     {
         name: "Sreerekha",
         position: "Women Entrepreneurship Lead",
-        img: "sreerekha_sro.jpg",
+        img: "sreerekha_sro.JPG",
         email: "iedc@cet.ac.in",
         phone: "6235687850",
     },
     {
         name: "Rigzin Dolma",
         position: "Non Keralite Lead",
-        img: "logo.png",
+        img: "rigzin-nonKeraliteLead.jpg",
         email: "iedc@cet.ac.in",
         phone: "6005580500",
     },
