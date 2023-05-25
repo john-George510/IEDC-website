@@ -78,10 +78,10 @@ const Cta = ({
               </div>
               <div className='flex flex-col md:ml-0'>
                 <p className='text-base font-semibold text-blue-100 mb-1'>
-                  Contact :  Sidharth Nair(CMO)
+                  Contact :  Diliya Mol Sebastian(PRO)
                 </p>
                 <p className='text-base text-blue-100 mb-1'>
-                  Email : cmoiedc@cet.ac.in
+                  Email : proiedc@cet.ac.in
                 </p>
               </div>
             </div>
