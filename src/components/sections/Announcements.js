@@ -69,6 +69,12 @@ const upcevents = [
     media:"speaker_3",
     mediaType:"image",
   },
+  {
+    title:"Speaker 4",
+    name:"Startup Kit Workshop",
+    media:"speaker_4",
+    mediaType:"image",
+  },
 ]
 
 const propTypes = {
