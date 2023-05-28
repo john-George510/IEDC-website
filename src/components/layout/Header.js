@@ -139,6 +139,11 @@ const Header = ({
                         ACHIEVEMENTS
                       </Link>
                     </li>
+                    <li className="li-class">
+                      <Link to="#INOPoints" onClick={closeMenu}>
+                        INO Points
+                      </Link>
+                    </li>
                     {/* <li className="li-class">
                       <Link to="#3" onClick={closeMenu}>
                         TIMELINE
