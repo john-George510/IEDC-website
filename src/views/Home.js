@@ -9,7 +9,7 @@ import Cta from "../components/sections/Cta";
 import Gallery from "../components/sections/gallery";
 import Team from "../components/sections/Team";
 import Announcements from "../components/sections/Announcements";
-
+import INOPoints from "../components/sections/INOPoints";
 const Home = () => {
   return (
     <>
@@ -24,6 +24,7 @@ const Home = () => {
       <UpcomingEvents topDivider />
       <Announcements topDivider />
       <Achievements topDivider />
+      <INOPoints topDivider />
       <Gallery topDivider />
       <Team topDivider />
       <Cta split />
