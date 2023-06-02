@@ -33,7 +33,7 @@ const team = [
         name: "Akhil Hayash M",
         position: "Chief Creative Officer",
         img: "akhil_cco.jpg",
-        email: "cmoiedc@cet.ac.in",
+        email: "ccoiedc@cet.ac.in",
         phone: "7994764846",
     },
     {
@@ -47,7 +47,7 @@ const team = [
         name: "Sidharth Nair",
         position: "Chief Marketing Officer",
         img: "sidharth_cmo.jpg",
-        email: "ctoiedc@cet.ac.in",
+        email: "cmoiedc@cet.ac.in",
         phone: "9061354702",
     },
     {
@@ -82,7 +82,7 @@ const team = [
         name: "Meljo Jose",
         position: "Chief Social Media Officer",
         img: "meljo_designLead.jpeg",
-        email: "csmooiedc@cet.ac.in",
+        email: "iedc@cet.ac.in",
         phone: "8075081397",
     },
     {
@@ -103,21 +103,21 @@ const team = [
         name: "Alan Aji",
         position: "Program Officer",
         img: "alan_cpo.jpg",
-        email: "cpoiedc@cet.ac.in",
+        email: "poiedc@cet.ac.in",
         phone: "8289965095",
     },
     {
         name: "Mohammed Fasil",
         position: "Program Officer",
         img: "fasil_cpo.JPG",
-        email: "cpoiedc@cet.ac.in",
+        email: "poiedc@cet.ac.in",
         phone: "9605953690",
     },
     {
         name: "Bharath Krishna",
         position: "Program Officer",
         img: "bharath_cpo.jpg",
-        email: "cpoiedc@cet.ac.in",
+        email: "poiedc@cet.ac.in",
         phone: "9847882852",
     },
     {
