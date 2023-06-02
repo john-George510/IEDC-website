@@ -30,7 +30,7 @@ const upcevents = [
   },
   {
     title: "Young Innovators Programs",
-    date: "...",
+    date: "07/06/2023",
     img: "yip",
     link:'https://forms.gle/KyVZLifMspTwc4oCA'
   },

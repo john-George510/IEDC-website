@@ -39,42 +39,6 @@ const upcevents = [
     media: "INO",
     mediaType: "video",
   },
-  {
-    title:"Newsletter",
-    name:"Startup Kit Workhsop",
-    media:"newsletter",
-    mediaType:"image",
-  },
-  {
-    title:"Speakers",
-    name:"Startup Kit Workhsop",
-    media:"speakers",
-    mediaType:"image",
-  },
-  {
-    title:"Speaker 1",
-    name:"Startup Kit Workshop",
-    media:"speaker_1",
-    mediaType:"image",
-  },
-  {
-    title:"Speaker 2",
-    name:"Startup Kit Workshop",
-    media:"speaker_2_main",
-    mediaType:"image",
-  },
-  {
-    title:"Speaker 3",
-    name:"Startup Kit Workshop",
-    media:"speaker_3",
-    mediaType:"image",
-  },
-  {
-    title:"Speaker 4",
-    name:"Startup Kit Workshop",
-    media:"speaker_4",
-    mediaType:"image",
-  },
 ]
 
 const propTypes = {
