@@ -39,6 +39,12 @@ const upcevents = [
     media: "INO",
     mediaType: "video",
   },
+  {
+    name:"Quickfolio",
+    content:"*Wanna impress your recruiters?*   Are you a person tired of leaping across different platforms to showcase your talents?  Presenting to you *'Quickfolio* '.  Created and developed by Don Jose Mathew of the CSE department, IEDC CET is proud to announce the release of this app.  With Quickfolio, you have complete control over your portfolio. You can easily add project links, integrate social media profiles, and accentuate projects in a captivating manner. Quickfolio provides a seamless platform to present your work, connect with your audience, and gain visibility for your projects. Take advantage of this opportunity to showcase your creativity and accomplishments all in one place. Start using Quickfolio today to create a comprehensive and impressive online presence for your work!  So, what are you waiting for?  Sign up for Quickfolio now:  https://www.quickfolio.me/",
+    media:"quickfolio",
+    mediaType:"image",
+  }
 ]
 
 const propTypes = {
