@@ -21,6 +21,13 @@ const upcevents = [
     img: "yip",
     link:'https://forms.gle/KyVZLifMspTwc4oCA'
   },
+  {
+    title: "Balm Designathon",
+    date: "06/06/2023",
+    img: "designathon",
+    brochure:"https://drive.google.com/file/d/10tUpJiTkKobaU959-kQsWpkWGJnXqf0E/view?usp=share_link",
+    link:'https://docs.google.com/forms/d/e/1FAIpQLSd0MbTWJWRmP6-XRl9kssBXmsjTytpACjV5FFzWDhmf6OyrSQ/viewform?usp=sharing'
+  },
 ]
 
 const propTypes = {

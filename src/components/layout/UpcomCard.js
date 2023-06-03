@@ -31,6 +31,9 @@ const UpcomCard = ({ data }) => {
         <p className="mb-0 text-sm">Time: {`${data.date.getUTCHours() < 12 ? data.date.getUTCHours() : data.date.getUTCHours() - 12}:${data.date.getUTCMinutes()} ${data.date.getUTCHours() < 12 ? "AM" : "PM"}`}</p> */}
         <p className="mb-0 text-sm">{data.time ? `Time: ${data.time}` : ""}</p>
         <p className="mt-3 mb-0 text-sm">{data.venue ? `Venue: ${data.venue}` : ""}</p>
+        {data.brochure && (<a className="mb-0 text-sm cursor-pointer bg-slate-50 p-1 rounded-md border-transparent transition-all duration-300 transform hover:scale-105" href={data.brochure} target="_blank" rel="noreferrer">
+          <p className="text-black m-0 p-0">View Brochure</p>
+        </a>)}
         <a className="mt-3 mb-0 text-sm cursor-pointer bg-slate-50 p-1 rounded-md border-transparent transition-all duration-300 transform hover:scale-105" href={data.link} target="_blank" rel="noreferrer">
           <p className="text-black m-0 p-0">Register</p>
         </a>

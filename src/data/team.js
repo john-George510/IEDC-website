@@ -2,7 +2,7 @@ import * as img from '../assets/images/team';
 
 const team = [
     {
-        name: "Rizwan MS",
+        name: "Rizvan MS",
         position: "Chief Executive Officer",
         img: "Rizvan_M_S.png",
         email: "ceoiedc@cet.ac.in",
@@ -16,7 +16,7 @@ const team = [
         phone: "6235741611",
     },
     {
-        name: "Cristo Stanly",
+        name: "Christo Stanly",
         position: "Chief Operating Officer",
         img: "cristo_coo_1.jpeg",
         email: "cooiedc@cet.ac.in",
@@ -75,7 +75,7 @@ const team = [
         name: "Aswin U M",
         position: "Chief Social Media Officer",
         img: "aswin_csmo.jpg",
-        email: "csmooiedc@cet.ac.in",
+        email: "iedc@cet.ac.in",
         phone: "00000000000",
     },
     {
@@ -131,7 +131,7 @@ const team = [
         name: "Rishi Prasad",
         position: "Content Creator",
         img: "rishi_contentLead.jpg",
-        email: "proiedc@cet.ac.in",
+        email: "cciedc@cet.ac.in",
         phone: "8281180107",
     },
     {
