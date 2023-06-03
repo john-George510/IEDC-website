@@ -19,6 +19,7 @@ const upcevents = [
     title: "Young Innovators Programs",
     date: "07/06/2023",
     img: "yip",
+    brochure:"https://drive.google.com/file/d/12XUIT3ikHIwtqfhw36Dvh1fNm5JiWBw-/view?usp=share_link",
     link:'https://forms.gle/KyVZLifMspTwc4oCA'
   },
   {
@@ -28,6 +29,12 @@ const upcevents = [
     brochure:"https://drive.google.com/file/d/10tUpJiTkKobaU959-kQsWpkWGJnXqf0E/view?usp=share_link",
     link:'https://docs.google.com/forms/d/e/1FAIpQLSd0MbTWJWRmP6-XRl9kssBXmsjTytpACjV5FFzWDhmf6OyrSQ/viewform?usp=sharing'
   },
+  {
+    title: "YIP Ideafest",
+    date: "07/06/2023",
+    img: "ideafest",
+    link:"https://forms.gle/Snrb5hbmV9Ha9XvS9"
+  }
 ]
 
 const propTypes = {
