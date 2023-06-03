@@ -16,19 +16,6 @@ import UpcomCard from "../layout/UpcomCard";
 
 const upcevents = [
   {
-    title: "Starter Kit Workshop",
-    date: "22/05/2023-28/05/2023",
-    venue: "Gmeet",
-    img: "starter_kit_final",
-    link:'https://docs.google.com/forms/d/e/1FAIpQLScFG372-TEJvrn_lztNJODGlkTLYbjAYCxvFQtok_REEVKOlw/viewform?usp=sharing'
-  },
-  {
-    title: "Sub Panel Call",
-    date: "Last date 26/05/2023",
-    img: "sp_call",
-    link:'https://forms.gle/n5bqyX49oxQrwqp69'
-  },
-  {
     title: "Young Innovators Programs",
     date: "07/06/2023",
     img: "yip",

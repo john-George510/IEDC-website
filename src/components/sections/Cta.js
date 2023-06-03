@@ -78,7 +78,7 @@ const Cta = ({
               </div>
               <div className='flex flex-col md:ml-0'>
                 <p className='text-base font-semibold text-blue-100 mb-1'>
-                  Contact :  Diliya Mol Sebastian(PRO)
+                  Contact :  Treasa Mariya(PRO)
                 </p>
                 <p className='text-base text-blue-100 mb-1'>
                   Email : proiedc@cet.ac.in
