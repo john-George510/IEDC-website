@@ -4,7 +4,7 @@ import Header from '../components/layout/Header';
 import './styles.css';
 import enovus_logo from './enovus_logo.png'
 
-const Enovous = () => {
+const Enovus = () => {
   return (
     <div className="main">
       <Header />
@@ -36,4 +36,4 @@ const Enovous = () => {
   )
 }
 
-export default Enovous
+export default Enovus;
