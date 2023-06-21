@@ -125,7 +125,12 @@ const Header = ({
                       </Link>
                     </li>
                     <li className="li-class">
-                      <Link to="#UpcomingEvents" onClick={closeMenu}>
+                      <Link to="#INOPoints" onClick={closeMenu}>
+                        INO Points
+                      </Link>
+                    </li>
+                    <li className="li-class">
+                      <Link to="#Events" onClick={closeMenu}>
                         EVENTS
                       </Link>
                     </li>
@@ -137,11 +142,6 @@ const Header = ({
                     <li className="li-class">
                       <Link to="#Achievements" onClick={closeMenu}>
                         ACHIEVEMENTS
-                      </Link>
-                    </li>
-                    <li className="li-class">
-                      <Link to="#INOPoints" onClick={closeMenu}>
-                        INO Points
                       </Link>
                     </li>
                     {/* <li className="li-class">

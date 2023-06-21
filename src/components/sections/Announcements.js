@@ -11,7 +11,7 @@ import { HashScroll } from "react-hash-scroll";
 // import "swiper/modules/pagination/pagination.min.css";
 import "swiper/css";
 import "swiper/css/pagination";
-import "./upcomingevents.css";
+import "./events.css";
 import UpcomCard from "../layout/AnnouncementCard";
 
 const upcevents = [
@@ -88,19 +88,19 @@ const Announcements = ({
     paragraph: "",
   };
 
-  const [upcomingevents, setUpcomingEvents] = useState([]);
+  const [events, setEvents] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "events_iedc"]'
         // const UEvents = events.filter((event) => {
         //     return new Date(`${event.date}`) > new Date();
         // });
-        // setUpcomingEvents(UEvents);
+        // setEvents(UEvents);
         client.fetch(query).then((res) => {
             const UEvents = res.filter((event) => {
                 return new Date(`${event.date}`) > new Date();
             });
-            setUpcomingEvents(UEvents);
+            setEvents(UEvents);
         })
         .catch((err) => {
             console.log("Sanity Ignites Event fetching : " + err);

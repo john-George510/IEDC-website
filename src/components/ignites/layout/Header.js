@@ -115,8 +115,8 @@ const Header = ({
                     )}
                   >
                     <li className="li-class">
-                      <Link to="/ignites" onClick={closeMenu}>
-                        IGNITES
+                      <Link to="/" onClick={closeMenu}>
+                        HOME
                       </Link>
                     </li>
                     <li className="li-class">

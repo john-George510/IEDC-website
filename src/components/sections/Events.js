@@ -11,7 +11,7 @@ import { HashScroll } from "react-hash-scroll";
 // import "swiper/modules/pagination/pagination.min.css";
 import "swiper/css";
 import "swiper/css/pagination";
-import "./upcomingevents.css";
+import "./events.css";
 import UpcomCard from "../layout/UpcomCard";
 
 const upcevents = [
@@ -45,7 +45,7 @@ const defaultProps = {
   ...SectionTilesProps.defaults,
 };
 
-const UpcomingEvents = ({
+const Events = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -74,23 +74,23 @@ const UpcomingEvents = ({
   const tilesClasses = classNames("tiles-wrap", pushLeft && "push-left");
 
   const sectionHeader = {
-    title: "Upcoming Events",
+    title: "Events",
     paragraph: "",
   };
 
-  const [upcomingevents, setUpcomingEvents] = useState([]);
+  const [events, setEvents] = useState([]);
 
     useEffect(() => {
         const query = '*[_type == "events_iedc"]'
         // const UEvents = events.filter((event) => {
         //     return new Date(`${event.date}`) > new Date();
         // });
-        // setUpcomingEvents(UEvents);
+        // setEvents(UEvents);
         client.fetch(query).then((res) => {
             const UEvents = res.filter((event) => {
                 return new Date(`${event.date}`) > new Date();
             });
-            setUpcomingEvents(UEvents);
+            setEvents(UEvents);
         })
         .catch((err) => {
             console.log("Sanity Ignites Event fetching : " + err);
@@ -99,7 +99,7 @@ const UpcomingEvents = ({
     }, []);
 
   return (
-    <HashScroll hash="#UpcomingEvents" position="start">
+    <HashScroll hash="#Events" position="start">
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
@@ -150,7 +150,7 @@ const UpcomingEvents = ({
   );
 };
 
-UpcomingEvents.propTypes = propTypes;
-UpcomingEvents.defaultProps = defaultProps;
+Events.propTypes = propTypes;
+Events.defaultProps = defaultProps;
 
-export default UpcomingEvents;
+export default Events;
