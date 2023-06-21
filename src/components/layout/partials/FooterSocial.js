@@ -20,7 +20,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://www.facebook.com/iedccet/">
+          <a href="https://www.facebook.com/iedccet/" target='_blank'>
             <svg
               width="20"
               height="20"
@@ -33,12 +33,12 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/innovation-and-entrepreneurship-development-cell-cet/mycompany/">
+          <a href="https://www.linkedin.com/company/innovation-and-entrepreneurship-development-cell-cet/mycompany/" target='_blank'>
             <FaLinkedinIn size={20} />
           </a>
         </li>
         <li>
-          <a href="https://mobile.twitter.com/iedccet">
+          <a href="https://mobile.twitter.com/iedccet" target='_blank'>
             <svg
               width="20"
               height="20"
@@ -51,7 +51,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/iedc_cet/?hl=en">
+          <a href="https://www.instagram.com/iedc_cet/?hl=en" target='_blank'>
             <svg
               width="20"
               height="20"
